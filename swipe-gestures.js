@@ -42,9 +42,9 @@ function swipeEnd(e) {
 }
 
 function swipeRight() {
-  // TODO
+  window.history.back();
 }
 
 function swipeLeft() {
-  // TODO
+  window.history.forward();
 }
